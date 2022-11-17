@@ -1,0 +1,138 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* logo */
+.logo{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    filter: drop-shadow(1px 1px 1px);
+    
+}
+/* home */
+
+/* estilos del padre*/
+
+.padre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.padre a{
+    text-decoration: none;
+    color: #000000;
+    
+    
+}
+/* estilos de los hijos */
+.hijo{
+    text-align: center;
+    width: 161px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav div .hijo{
+    text-decoration: none;
+    background-color: rgb(241, 241, 170);
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* animaciones de los botones del menu */
+
+header nav div a:hover{
+    background-color: pink;
+    font-weight: bold;
+    transform: scale(1.2);
+    color: blueviolet;
+}
+
+/* animaciones del footer */
+footer div img:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+    box-shadow: 1px 1px 2px black;
+}
+
+.menu{
+    background-color:rgb(241, 241, 170) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* productos */
+body{
+    background-color: rgb(241, 241, 170);
+}
+body h1{
+    background-color: pink;
+}
+body h1 li{
+    background-color: rgb(241, 241, 170);
+    
+}
+
+.productos{
+    display: flex;
+}
+
+.producto{
+    display: flex;
+}
+
+/* sobre nosotros */
+header{
+    background-color: pink;
+}
+
+/* contacto */
+footer{
+    background-color: pink;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* mq */
+@media only screen and (min-width: 360px) and (max-width: 1200px){
+
+}
+
+/* modificaciones de bs */
+.card{
+    display: flex;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    background-color: pink;
+}
+
+.card div p{
+    background-color: rgb(241, 241, 170);
+}
+
